@@ -1,7 +1,7 @@
 /* common styles */
 body{
     font-family: "Lato", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
 }
 .front{
@@ -28,7 +28,7 @@ nav{
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: italic;
-    font-size: large;
+    font-size: xx-large;
     text-decoration: none;
     color: white;
     margin-left: 50px;
@@ -45,29 +45,39 @@ nav{
 .nav-btn{
     border: none;
     background-color: rgb(32, 89, 245);
-    font-size: 8px;
+    font-size: 16px;
     color: white;
     padding: 3px 10px;
     font-weight: 700;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 .nav-item a{
+    font-weight: 700;
     text-decoration: none;
     color: white;
-    margin-right: 20px;
-    font-size: 8px;
+    margin-right: 40px;
+    font-size: 16px;
 }
 /* main styles */
 .front{
     display: flex;
-    padding-bottom: 20px;
+    align-items: center;
+    padding-bottom: 50px;
 }
 .front-info{
     color: white;
-    padding: 40px 40px;
+    padding: 60px 70px;
+    width: 60%;
+}
+.front-info h1{
+    font-size: 60px;
+}
+.front-info p{
+    font-size: 30px;
 }
 .button-list button{
-    font-size: 8px;
+    margin-top: 10px;
+    font-size: 16px;
     background-color: rgb(31, 30, 30);
     color: white;
     padding: 3px 6px;
@@ -75,30 +85,32 @@ nav{
 }
 form{
     background-color: rgb(31, 30, 30);
-    padding: 2px;
-    margin-top: 10px;
+    padding: 4px;
+    margin-top: 20px;
     display: flex;
-    width: 51%;
+    width: 58%;
+    height: 55px;
 }
 form input{
     background-color: rgb(31, 30, 30);
     border: none;
-    font-size: 8px;
-    margin-left: 20px;
+    font-size: 16px;
+    margin-left: 35px;
     
 }
 form button{
     border: none;
     background-color: rgb(32, 89, 245);
-    font-size: 8px;
+    font-size: 16px;
     color: white;
-    padding: 7px 15px;
+    padding: 7px 35px;
     font-weight: 700;
 
 }
 .front-img{
-    margin-top: 22px;
+    margin-top: 40px;
     padding: 40px 40px;
+    width: 30%;
 }
 /* icons styles */
 .ap{
@@ -123,66 +135,69 @@ form button{
 
 /* second section styles */
 .episodes-list{
-    color: white;
-    padding: 30px;
+    color: white;padding-top: 60px;
+    padding-left: 80px;
+}
+.episodes-list h4{
+    font-size: xx-large;
 }
 .episode{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+    grid-row-gap: 40px;
 }
 .episode1{
     background: url(media/episode/ep1.jpg);
     background-repeat: no-repeat;
-    background-size: 330px 320px;
-    height: 320px;
-    width: 330px;
+    background-size: 550px 550px;
+    height: 550px;
+    width: 550px;
     position: relative;
     padding: 10px 20px;
 }
 .episode2{
     background: url(media/episode/ep4.jpg);
     background-repeat: no-repeat;
-    background-size: 330px 320px;
-    height: 320px;
-    width: 330px;
+    background-size: 550px 550px;
+    height: 550px;
+    width: 550px;
     position: relative;
     padding: 10px 20px;
 }
 .episode3{
     background: url(media/episode/ep2.jpg);
     background-repeat: no-repeat;
-    background-size: 330px 320px;
-    height: 320px;
-    width: 330px;
+    background-size: 550px 550px;
+    height: 550px;
+    width: 550px;
     position: relative;
     padding: 10px 20px;
 }
 .episode4{
     background: url(media/episode/ep3.jpg);
     background-repeat: no-repeat;
-    background-size: 330px 320px;
-    height: 320px;
-    width: 330px;
+    background-size: 550px 550px;
+    height: 550px;
+    width: 550px;
     position: relative;
     padding: 10px 20px;
 }
 .episode5{
     background: url(media/episode/ep6.jpg);
     background-repeat: no-repeat;
-    background-size: 330px 320px;
-    height: 320px;
-    width: 330px;
+    background-size: 550px 550px;
+    height: 550px;
+    width: 550px;
     position: relative;
     padding: 10px 20px;
 }
 .episode6{
     background: url(media/episode/ep5.jpg);
     background-repeat: no-repeat;
-    background-size: 330px 320px;
-    height: 320px;
-    width: 330px;
+    background-size: 550px 550px;
+    height: 550px;
+    width: 550px;
     position: relative;
     padding: 10px 20px;
 }
@@ -192,7 +207,7 @@ form button{
     bottom: 0px;
 }
 .episode-info h3{
-    font-size: 20px;
+    font-size: xx-large;
     font-weight: 800;
 }
 .episode-info p{
@@ -203,12 +218,12 @@ form button{
     align-items: flex-end;
 }
 .ep p{
-    font-size: 8px;
+    font-size: 16px;
     margin-bottom: 11px;
     margin-left: 5px;
 }
 .load-btn{
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -216,10 +231,11 @@ form button{
 .load-btn button{
     border: none;
     background-color: rgb(32, 89, 245);
-    font-size: 8px;
+    font-size: 16px;
     color: white;
-    padding: 7px 40px;
+    padding: 10px 80px;
     font-weight: 700;
+    margin-bottom: 40px;
 }
 /* second section styles end  */
 
@@ -227,7 +243,8 @@ form button{
 footer{
     background-color: rgb(35, 35, 41);
     color: white;
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .foot{
     display: flex;
@@ -239,19 +256,20 @@ footer{
     padding: 0;
 }
 .social-icon a{
-    font-size: 8px;
+    font-size: 14px;
     color: white;
     margin-right: 3px;
 }
 .about{
     padding: 0px;
-    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .about a{
-    font-size: 8px;
+    font-size: 14px;
     text-decoration: none;
     color: white;
 }
 .copyright p{
-    font-size: 8px;
+    font-size: 14px;
 }
