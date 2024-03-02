@@ -1,0 +1,257 @@
+/* common styles */
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.front{
+    background-color: rgb(35, 35, 41);
+}
+.episodes-list{
+    background-color: rgb(31, 30, 30) ;
+}
+.episodes-list h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+/* navbar styles */
+nav{
+    background-color: rgb(35, 35, 41);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-brand a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.nav-item{
+    list-style-type: none;
+}
+.nav-btn{
+    border: none;
+    background-color: rgb(32, 89, 245);
+    font-size: 8px;
+    color: white;
+    padding: 3px 10px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.nav-item a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 8px;
+}
+/* main styles */
+.front{
+    display: flex;
+    padding-bottom: 20px;
+}
+.front-info{
+    color: white;
+    padding: 40px 40px;
+}
+.button-list button{
+    font-size: 8px;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    padding: 3px 6px;
+    border-radius: 0;
+}
+form{
+    background-color: rgb(31, 30, 30);
+    padding: 2px;
+    margin-top: 10px;
+    display: flex;
+    width: 51%;
+}
+form input{
+    background-color: rgb(31, 30, 30);
+    border: none;
+    font-size: 8px;
+    margin-left: 20px;
+    
+}
+form button{
+    border: none;
+    background-color: rgb(32, 89, 245);
+    font-size: 8px;
+    color: white;
+    padding: 7px 15px;
+    font-weight: 700;
+
+}
+.front-img{
+    margin-top: 22px;
+    padding: 40px 40px;
+}
+/* icons styles */
+.ap{
+    padding: 2px;
+    border-radius: 3px;
+    background-color: blueviolet;
+    color: white;
+}
+.sp{
+    padding: 2px;
+    border-radius: 3px;
+    background-color: rgb(43, 226, 67);
+    color: white;
+}
+.ov{
+    padding: 2px;
+    border-radius: 3px;
+    background-color: rgb(226, 192, 43);
+    color: white;
+}
+/* icon styles end */
+
+/* second section styles */
+.episodes-list{
+    color: white;
+    padding: 30px;
+}
+.episode{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.episode1{
+    background: url(media/episode/ep1.jpg);
+    background-repeat: no-repeat;
+    background-size: 330px 320px;
+    height: 320px;
+    width: 330px;
+    position: relative;
+    padding: 10px 20px;
+}
+.episode2{
+    background: url(media/episode/ep4.jpg);
+    background-repeat: no-repeat;
+    background-size: 330px 320px;
+    height: 320px;
+    width: 330px;
+    position: relative;
+    padding: 10px 20px;
+}
+.episode3{
+    background: url(media/episode/ep2.jpg);
+    background-repeat: no-repeat;
+    background-size: 330px 320px;
+    height: 320px;
+    width: 330px;
+    position: relative;
+    padding: 10px 20px;
+}
+.episode4{
+    background: url(media/episode/ep3.jpg);
+    background-repeat: no-repeat;
+    background-size: 330px 320px;
+    height: 320px;
+    width: 330px;
+    position: relative;
+    padding: 10px 20px;
+}
+.episode5{
+    background: url(media/episode/ep6.jpg);
+    background-repeat: no-repeat;
+    background-size: 330px 320px;
+    height: 320px;
+    width: 330px;
+    position: relative;
+    padding: 10px 20px;
+}
+.episode6{
+    background: url(media/episode/ep5.jpg);
+    background-repeat: no-repeat;
+    background-size: 330px 320px;
+    height: 320px;
+    width: 330px;
+    position: relative;
+    padding: 10px 20px;
+}
+.episode-info{
+    color: white;
+    position: absolute;
+    bottom: 0px;
+}
+.episode-info h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+.episode-info p{
+    font-weight: 700;
+}
+.ep{
+    display: flex;
+    align-items: flex-end;
+}
+.ep p{
+    font-size: 8px;
+    margin-bottom: 11px;
+    margin-left: 5px;
+}
+.load-btn{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.load-btn button{
+    border: none;
+    background-color: rgb(32, 89, 245);
+    font-size: 8px;
+    color: white;
+    padding: 7px 40px;
+    font-weight: 700;
+}
+/* second section styles end  */
+
+/* footer styles */
+footer{
+    background-color: rgb(35, 35, 41);
+    color: white;
+    padding-top: 10px;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.social{
+    padding: 0;
+}
+.social-icon a{
+    font-size: 8px;
+    color: white;
+    margin-right: 3px;
+}
+.about{
+    padding: 0px;
+    margin-bottom: 5px;
+}
+.about a{
+    font-size: 8px;
+    text-decoration: none;
+    color: white;
+}
+.copyright p{
+    font-size: 8px;
+}
