@@ -88,8 +88,9 @@ form{
     padding: 4px;
     margin-top: 20px;
     display: flex;
-    width: 375px;
+    width: 400px;
     height: 55px;
+    position: relative;
 }
 form input{
     background-color: rgb(31, 30, 30);
@@ -102,11 +103,11 @@ form button{
     border: none;
     background-color: rgb(32, 89, 245);
     font-size: 15px;
-    margin-left: 14px;
     color: white;
-    padding: 7px 35px;
+    padding: 13px 35px;
     font-weight: 700;
-
+    position: absolute;
+    right: 0;
 }
 .front-img{
     margin-top: 40px;
