@@ -206,7 +206,7 @@ form button{
 .episode-info{
     color: white;
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
 }
 .episode-info h3{
     font-size: xx-large;
@@ -275,3 +275,167 @@ footer{
 .copyright p{
     font-size: 14px;
 }
+
+
+/* media query */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    nav{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .nav-brand{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-brand a{
+        margin-left: 0px;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+    }
+    .nav-item a{
+        margin-right: 40px;
+    }
+    .front{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .front-info{
+        width: 100%;
+        padding-top: 0;
+        padding-left: 40px;
+        order: 2;
+    }
+    .front-img{
+        order: 1;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .front-img img{
+        width: 100%;
+        height: 400px;
+    }
+    .episodes-list{
+        padding-left: 10px;
+    }
+    .episode{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 40px;
+    }
+    .episode1{
+        background-size: 98%;
+        width: 100%;
+        height: 550px;
+    }
+    .episode2{
+        background-size: 98%;
+        width: 100%;
+        height: 550px;
+    }
+    .episode3{
+        background-size: 98%;
+        width: 100%;
+        height: 550px;
+    }
+    .episode4{
+        background-size: 98%;
+        width: 100%;
+        height: 550px;
+    }
+    .episode5{
+        background-size: 98%;
+        width: 100%;
+        height: 550px;
+    }
+    .episode6{
+        background-size: 98%;
+        width: 100%;
+        height: 550px;
+    }
+    
+  }
+
+
+@media only screen and (max-width: 590px) {
+    /* For mobile phones: */
+    nav{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .nav-brand{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-brand a{
+        margin-left: 0px;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav-item a{
+        margin-right: 25px;
+    }
+    .front{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .front-info{
+        width: 100%;
+        padding: 10px 10px;
+        order: 2;
+    }
+    .front-img{
+        order: 1;
+    }
+    .front-img img{
+        height: 250px;
+    }
+    form{
+        width: 100%;
+    }
+    .episodes-list{
+        padding-left: 10px;
+    }
+    .episode{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 40px;
+    }
+    .episode1{
+        background-size: 100%;
+        width: 95%;
+    }
+    .episode2{
+        background-size: 100%;
+        width: 95%;
+    }
+    .episode3{
+        background-size: 100%;
+        width: 95%;
+    }
+    .episode4{
+        background-size: 100%;
+        width: 95%;
+    }
+    .episode5{
+        background-size: 100%;
+        width: 95%;
+    }
+    .episode6{
+        background-size: 100%;
+        width: 95%;
+    }
+
+    
+  }
+  
